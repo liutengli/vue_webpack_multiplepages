@@ -55,7 +55,6 @@
   </div>
 </template>
 <script>
-import {oilPriceList} from './http/api'
 import { Button,Popup  } from "vant"
 export default {
   data () {
@@ -70,20 +69,7 @@ export default {
       this.show = true
     },true)
   },
-  mounted() {
-    this.getData()
-	},
   methods: {
-    getData(){
-     oilPriceList({
-        success:(res)=>{
-          this.oilPriceList=res.data.rows
-        },
-        err:(err)=>{
-          this.$message(err)
-        }
-      })
-    },
     backHandle () {
       this.$router.back()
     },

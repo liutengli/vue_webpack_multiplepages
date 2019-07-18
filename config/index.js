@@ -30,7 +30,7 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
       '/api': {
-        target: 'http://47.110.54.79:8081',
+        target: 'http://www.baidu.com',
         // 路径重写
         pathRewrite: {
           '^/api': ''

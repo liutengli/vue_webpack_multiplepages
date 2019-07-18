@@ -15,5 +15,10 @@ export default new Router({
       component: resolve => require(['@/module/oilPrice/oilPrice.vue'], resolve),
       name: 'OilPrice',
     },
+    {
+      path: '/userManage',
+      component: resolve => require(['@/module/userManage/userManage.vue'], resolve),
+      name: 'UserManage',
+    }
   ]
 })
