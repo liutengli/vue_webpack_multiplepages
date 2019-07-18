@@ -1,0 +1,58 @@
+*{padding:0;margin:0;}
+input,textarea {
+    resize: none!important;
+    -webkit-appearance: none;
+}
+ol, ul, li{
+  list-style: none
+}
+i, em{
+  font-style: normal
+}
+b, strong{
+  font-weight: normal
+}
+button, input, optgroup, option, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    outline: 0;
+}
+input, select, textarea, button{
+  border: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
+  text-decoration: none;
+}
+blockquote, body, button, dd, div, dl, dt, form, h1, h2, h3, h4, h5, h6, input, li, ol, p, pre, td, textarea, th, ul {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+-webkit-box-shadow: 0 0 0 1000px white inset;
+}
+/*设置placeholder颜色*/
+textarea::-webkit-input-placeholder,
+input::-webkit-input-placeholder {
+/* WebKit browsers */
+color: #ccc;
+}
+textarea:-moz-placeholder,
+input:-moz-placeholder {
+/* Mozilla Firefox 4 to 18 */
+color: #ccc;
+}
+textarea::-moz-placeholder,
+input::-moz-placeholder {
+/* Mozilla Firefox 19+ */
+color: #ccc;
+}
+textarea:-ms-input-placeholder,
+input:-ms-input-placeholder {
+/* Internet Explorer 10+ */
+color: #ccc;
+}
